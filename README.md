@@ -15,12 +15,12 @@ Shout your username in chat when you're in.
 ## 2. Make your repository
 
 1. Top-right **+** → **New repository**.
-2. Repository name: type it **exactly** as `yourname.github.io` (your username, then `.github.io`).
+2. Repository name: name your repo what you want your project to be called (tentatively if you don't have an idea yet)
 3. Set it to **Public**.
 4. Check **Add a README file**.
 5. Click **Create repository**.
 
-**Spell the name exactly.** A wrong name is the #1 reason a page never shows up. Not sure? Paste your repo name in chat.
+
 
 ---
 
@@ -28,8 +28,7 @@ Shout your username in chat when you're in.
 
 1. In your repo: **Add file** → **Create new file**.
 2. Name the file **exactly** `index.html` (all lowercase).
-3. Paste the **starter** from chat into the big box.
-4. Scroll down → **Commit changes** → commit to **main**.
+3. Scroll down → **Commit changes** → commit to **main**.
 
 That just saved a website to the internet.
 
@@ -38,7 +37,7 @@ That just saved a website to the internet.
 ## 4. Open your live URL
 
 1. Open a new tab.
-2. Go to **`yourname.github.io`**.
+2. Go to **`yourname.github.io/your-project`**.
 3. First load takes about a minute. If you see a **404**, don't panic. Wait and refresh.
 
 When it loads, **drop your link in chat.**
