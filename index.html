@@ -130,7 +130,12 @@
 
 <script>
   // --- tiny date helpers (no library) ---
-  const dayKey = d => d.toISOString().slice(0,10);          // "2026-07-13"
+  // Local date, not UTC: toISOString() alone would file a 9pm promise in New York
+  // under tomorrow's key, and it'd vanish on refresh.
+  const dayKey = d => {
+    const off = d.getTimezoneOffset() * 60000;
+    return new Date(d - off).toISOString().slice(0,10);     // "2026-07-13"
+  };
   const now = new Date();
   const todayK = dayKey(now);
   const yK = dayKey(new Date(now.getTime() - 86400000));    // yesterday
