@@ -157,6 +157,12 @@
     footer{margin-top:4em;color:var(--dim);font:500 13px/1.6 'DotGothic16',monospace;
       text-shadow:0 1px 6px rgba(6,10,20,.5)}
 
+    /* ===== Ko-fi · fixed top-right, on a soft pill so it reads over the scene ===== */
+    #kofi{position:fixed;top:20px;right:20px;z-index:8;line-height:0;
+      background:rgba(20,18,14,.72);padding:7px 10px;border-radius:12px;
+      box-shadow:0 8px 22px rgba(0,0,0,.4);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+    #kofi img{display:block}
+
     /* ===== survey: the "tell me what to build" section ===== */
     .survey{margin-top:5em;padding-top:3em;border-top:1px solid var(--line)}
     .survey h2{font-size:clamp(26px,4vw,38px);font-weight:700;line-height:1.05;
@@ -197,6 +203,9 @@
 <div id="cloudsFront"></div>
 <canvas id="rainNear"></canvas>
 <div id="floor"></div>
+
+<!-- support link, pinned top-right over the scene -->
+<div id="kofi"><a href="https://ko-fi.com/K3K51X2TV5" target="_blank" rel="noopener"><img height="36" style="border:0;height:36px" src="https://storage.ko-fi.com/cdn/kofi1.png?v=6" alt="Buy Me a Coffee at ko-fi.com"></a></div>
 
 <div class="wrap">
 
